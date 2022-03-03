@@ -1,0 +1,1 @@
+Moi file co the co nhieu init function. Dung de verify hoac repair 1 CT truoc khi no execute thuc su
