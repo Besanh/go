@@ -1,1 +1,4 @@
 Moi file co the co nhieu init function. Dung de verify hoac repair 1 CT truoc khi no execute thuc su
+gin.Context la phan quan trong nhat cua Gin FW, mang theo request chi tiet, validate va serialize JSON,...
+go1.18rc1 de run cac cmd ver nay
+go get . => lay dependency cho code cua duong dan hien tai
