@@ -1,0 +1,14 @@
+Luyen tap Restful API via Gin FW
+go mod init <path_to_current_folder>
+Khai bao kieu struct(ngan keo)
+POST/GET/GET By ID
+Download gin: go get .
+Run server: go run .
+IndentedJSON => bind struct thanh json va tra ve json nay trong func
+BindJSON => bind body param vao ..
+body: {
+    "id": "4","title": "The Modern Sound of Betty Carter","artist": "Betty Carter","price": 49.99
+}
+Content-Type: application/json
+gin.H{<json>} => response noi dung la json
+http.StatusOK, http.StatusCreated, http.StatusNotFound

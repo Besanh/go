@@ -1,7 +1,9 @@
 package main
 
 import (
+	// Gin FW
 	"github.com/gin-gonic/gin"
+	// Http web
 	"net/http"
 )
 

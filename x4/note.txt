@@ -1,0 +1,8 @@
+Luyen tap Module and Workspace
+Tao dir hello
+Tao dir workspace
+Tai package example cho dir hello: go get golang.org/x/example => cmd nay tao ra file go.sum
+Tao workspace: o dir workspace, go work init <path_module>
++ git clone https://go.googlesource.com/example
++ go work use <path_module/path_pkg> de dua module/pkg vao workspace
+Tao file toupper.go trong example/stringutil

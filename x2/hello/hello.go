@@ -4,6 +4,7 @@ import (
 	"fmt"
 
 	// Dependency
+	// go get golang.org/x/example
 	"golang.org/x/example/stringutil"
 )
 

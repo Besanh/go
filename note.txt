@@ -2,3 +2,6 @@ Moi file co the co nhieu init function. Dung de verify hoac repair 1 CT truoc kh
 gin.Context la phan quan trong nhat cua Gin FW, mang theo request chi tiet, validate va serialize JSON,...
 go1.18rc1 de run cac cmd ver nay
 go get . => lay dependency cho code cua duong dan hien tai
+Workspace la  1 khong gian lam viec, ket noi cac module lai voi nhau, co the goi cac module khac tu noi nay
+Dung o dir workspace: go work init <path_module>
+go work use <path_module>
