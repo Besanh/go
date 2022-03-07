@@ -55,7 +55,7 @@ func postAlbums(c *gin.Context) {
 
 	// Add the new album to the slice.
 	albums = append(albums, newAlbum)
-	c.IndentedJSON(http.StatusCreated, albums) // status 201
+	c.IndentedJSON(http.StatusCreated, newAlbum) // status 201
 }
 
 // Lay album theo id

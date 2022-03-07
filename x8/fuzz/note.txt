@@ -1,0 +1,3 @@
+Test case
+Fuzzing giup tim ra lo hong, cac input loi.
+VD SQL Injection, tran bo nho dem, deny service, tan cong script cross-site

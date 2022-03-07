@@ -5,3 +5,24 @@ go get . => lay dependency cho code cua duong dan hien tai
 Workspace la  1 khong gian lam viec, ket noi cac module lai voi nhau, co the goi cac module khac tu noi nay
 Dung o dir workspace: go work init <path_module>
 go work use <path_module>
+
+Package:
+errors => loi
+log
+os => lam viec voi file
+net/http => lam viec voi http
+fmt => cac ham print
+regexp => regex
+github.com/gin-gonic/gin => gin fw
+
+Moi bien khi khai bao deu co dia chi rieng va gia tri dang luu tru. Dau "&"<ten bien> de xem dia chi bien
+Con tro "*"<ten bien>
+p = &value => p la dia chi, &value la dia chi
+*p = value => p la gia tri, value la gia tri
+func (p *Page) seen() => day la cach dung con tro trong func name "seen" ma khong can dung p *Page la argument
+Khong them su dung argument co con tro phia truoc argument khong co con tro
+VD: func a(a *p, b z) => sai
+func b(b z, a *p)
+
+Chi su dung var interface trong generic function cho parameter
+request.FormValue(<name_field>) tra ve gia tri cua form POST, GET
