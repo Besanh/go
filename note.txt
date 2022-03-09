@@ -26,3 +26,30 @@ func b(b z, a *p)
 
 Chi su dung var interface trong generic function cho parameter
 request.FormValue(<name_field>) tra ve gia tri cua form POST, GET
+
+De su dung rand.Intn() return random number thi phai khai bao rand.Seed(time.Now().UnixNano()) trong func init()
+
+Ten viet hoa chu cai dau tien(VD Name, Pi()) la ten duoc export. Khi import package thi phai
+su dung cac ten, func duoc export
+
+%T la tuong ung type, hay  dung trong Printf
+%v la tuong ung voi var(int, float, boolean), func
+%q cho type string
+
+Type
+bool
+string
+int int8 int16 int32 int64
+uint uint8 uint 16 uint32 uint64 uintptr
+byte    // alias cua uint8
+run     // alias cua int32, dai dien cho 1 diem ma Unicode
+float32 float64
+complex64 complex128    // so phuc
+
+Vong lap for dung ";",
+Menh de if dung ";", truoc dk co the co 1 menh de
+VD: if v:= a(); v < x
+switch...case cung xai ";" tuong tu
+
+Defer: sd trong dieu khien thread, cho phep cau lenh duoc goi khong thuc thi ngay ma hoan lai
+cho toi khi cac lenh xung quanh tra ve ket qua
