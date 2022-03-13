@@ -1,0 +1,10 @@
+Advance learning
+array bt: [length]{...}
+array literal: [length]{...}
+slice: []{...}
+slice literal: []{...}
+map: map[]<var struct>
+map literal: yeu cau co key, map[]<struct> {
+    key : ...,
+    key: ...
+}

@@ -19,6 +19,7 @@ Moi bien khi khai bao deu co dia chi rieng va gia tri dang luu tru. Dau "&"<ten 
 Con tro "*"<ten bien>
 p = &value => p la dia chi, &value la dia chi
 *p = value => p la gia tri, value la gia tri
+p = &A{x,y} => &{x,y},A type struct
 func (p *Page) seen() => day la cach dung con tro trong func name "seen" ma khong can dung p *Page la argument
 Khong them su dung argument co con tro phia truoc argument khong co con tro
 VD: func a(a *p, b z) => sai
@@ -53,3 +54,17 @@ switch...case cung xai ";" tuong tu
 
 Defer: sd trong dieu khien thread, cho phep cau lenh duoc goi khong thuc thi ngay ma hoan lai
 cho toi khi cac lenh xung quanh tra ve ket qua
+
+Slice la 1 mang co size thay doi tu dong, slice khong luu data, no chi mo ta 1 phan cua mang
+slice bi gioi han boi a[low:high bound] => cat tu mang a vi tri low -> high
+Gia tri 0 cua slice la nil, len 0, capacity 0
+
+Range continued:
+Bo qua index hoac value bang dau "_"
+for i, _ := range pow
+for _, value := range pow
+Chi can index
+for i := range pow
+
+make(type, so phan tu) tao 1 slice
+make return map(cap key-value) 
