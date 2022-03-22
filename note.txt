@@ -68,3 +68,29 @@ for i := range pow
 
 make(type, so phan tu) tao 1 slice
 make return map(cap key-value) 
+
+Method
+type A struct{
+    X, Y <type>
+}
+func (v A) a <type> {
+    ...
+}
+var co struct A co the truy cap func a()
+
+Construct
+type A struct {
+    ...
+}
+None construct
+type A <type> => type float,int,...
+
+Khi goi func co pointer, ta can truyen vao dia chi, vd a := &A, func(a)
+
+Inteface la 1 tap hop cac method dac trung
+
+Method la function co receiver argument phia truoc
+VD: func (v Vertext)Abs() int64{...}
+Method chi la function khi co receiver argument
+VD: func Abs(v Vertext) int64{...}
+Khong the nhan func a(argument){...} trong pointer ma chi nhan receiver arg
